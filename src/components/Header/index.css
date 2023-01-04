@@ -1,0 +1,66 @@
+.Nav {
+  height: 55px;
+  width: 90vw;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+
+  border-style: solid;
+  border-color: #94a3b8;
+}
+li {
+  list-style-type: none;
+}
+.nav-logo {
+  margin-left: 50px;
+  height: 40px;
+}
+.link-con {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.home-name {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0284c7;
+}
+.bookshelves-name {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0284c7;
+  margin: 20px;
+}
+.theme-button {
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.moon {
+  font-size: 25px;
+  color: black;
+}
+.sun {
+  font-size: 25px;
+  color: white;
+}
+.log-out {
+  background-color: #0284c7;
+  font-family: 'Roboto';
+  height: 30px;
+  border-radius: 5px;
+  border-width: 0px;
+  width: 60px;
+  margin-right: 10px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}
